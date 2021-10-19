@@ -1,5 +1,4 @@
 
-
 <?php 
 system('clear');
 $array = ["A", "B", "C", "D", "E", "F", "G", "H", "I"];
@@ -37,8 +36,6 @@ while ($isTrue):
        $array[2] == "\033[1;36mX\033[0m" and $array[5] == "\033[1;36mX\033[0m" and $array[8] == "\033[1;36mX\033[0m"
        ) {
        $style = "
-
-
 
 
        \033[1;36m ___________________
@@ -80,7 +77,6 @@ while ($isTrue):
            exit();
        }
 
-       
    } 
 
    elseif (
@@ -97,8 +93,6 @@ while ($isTrue):
         $style = "
 
 
-
-
         \033[0;31m ___________________
         |                   |
         |                   |
@@ -106,9 +100,6 @@ while ($isTrue):
         |                   |
         |___________________|\033[0m
      
-        
-        
-        
         
         
         ";
@@ -184,7 +175,5 @@ while ($isTrue):
    }
   
 endwhile;
-
-
 
 ?> 
